@@ -4,7 +4,7 @@ body {
 
 main {
     background: #fff;
-    font-family: Geneva, Verdana, sans-serif;
+    font-family: Helvetica;
     position: relative;
 }
 
@@ -23,13 +23,15 @@ header {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 40px 40px 0 40px;
     padding-bottom: 80px;
 }
 
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -200,7 +202,7 @@ a.headerLink {
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 32px;
     }
 
     p {
