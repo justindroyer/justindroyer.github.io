@@ -21,7 +21,7 @@ header {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 40px 40px 0 40px;
     padding-bottom: 80px;
@@ -169,9 +169,15 @@ a.headerLink {
     z-index: 1;
 }
 
+.menu .languagesMobile a, .menu .languagesMobile span {
+    padding-right: 10px;
+}
+
 .menu li {
     padding: 10px 40px;
     border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
 }
 
 .menu li:last-child {
@@ -231,6 +237,14 @@ a.headerLink {
         font-size: 18px;
         position: relative;
         transition: 0.3s;
+    }
+
+    .navDesktop .languages {
+        margin: 0 20px;
+    }
+
+    .navDesktop .languages a {
+        margin: 0;
     }
 
     .navDesktop a::before {
